@@ -4,7 +4,7 @@ jobs:
   fetch:
     strategy:
       matrix:
-        foo: [x00, x01, x02, x03, x04, x05, x06, x07, x08, x09]
+        foo: [x00, x01, x02, x03, x04]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -12,7 +12,8 @@ jobs:
         run: |
           export FOO=${{ matrix.foo }}
           mkdir -p out/${{ matrix.foo }}
-          ./curl.sh < ${{ matrix.foo }}
+          curl --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.3" \
+            --parallel --remote-name-all --output-dir "out/$FOO" -L $(cat ${{ matrix.foo }})
           zip -r out/${{ matrix.foo }}.zip out/${{ matrix.foo }}
       - name: Push artifact
         uses: actions/upload-artifact@v4
