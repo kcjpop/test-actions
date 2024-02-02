@@ -2,12 +2,15 @@ name: Manual update
 on: workflow_dispatch
 jobs:
   fetch:
+    strategy:
+      matrix:
+        foo: [x00, x01, x02, x03, x04]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
       - name: Fetch content
-        run: ./curl.sh < urls.txt
+        run: |
+          ./curl.sh < ${{ matrix.foo }}
 
       - name: Commit and push if changed
         run: |
