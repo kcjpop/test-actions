@@ -7,15 +7,14 @@ jobs:
         foo: [x00, x01, x02, x03, x04]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Fetch content
         run: |
+          export FOO=${{ matrix.foo }}
+          mkdir -p out/${{ matrix.foo }}
           ./curl.sh < ${{ matrix.foo }}
-      - name: Commit and push if changed
-        run: |
-          git config --global user.email "runner@example.com"
-          git config --global user.name "runner"
-          git add -A
-          git commit -m "Update data ${{ matrix.foo }}" || exit 0
-          git pull --rebase
-          git push
+          zip -r out/${{ matrix.foo }}.zip out/${{ matrix.foo }}
+      - name: Push artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: out/${{ matrix.foo }}.zip
