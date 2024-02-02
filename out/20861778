@@ -66,9 +66,9 @@
 <meta name="format-detection" content="telephone=no">
 <meta http-equiv="Accept-CH" content="sec-ch-ua-model,sec-ch-ua-platform-version" />
 <meta http-equiv="Permissions-Policy" content="ch-ua-model=*,ch-ua-platform-version=*" />
-<meta name="api-token" content="3ec0d58a85ece0c54bd0e70e51392d97e8a61a6a924c7365201eccf4433c5729">
-<meta name="loaded" content="1706857855">
-<meta name="cuid" content="8845b9313fb38ee4dcc3bcd86a41194dcfd195b3">
+<meta name="api-token" content="e51b83358c2564dc54a96b6d88fa340f7150b90732737d25ed2a3c931246a5bb">
+<meta name="loaded" content="1706858504">
+<meta name="cuid" content="b9c15f9eb4467378f0364ee83e8e44744bf3cfc3">
 <script>
 	var otAsunnot={"loginData":{"widgetSrcUrl":"https://static.oikotiecdn.fi/schibsted-account/ot-session-widget.min.js","clientId":"6322eb3b9dddad507226afac","target":"ot-apts","userKey":null,"loginError":null,"deniedUrl":null,"adminLogin":false},"translations":{"fi":{"listing/contact/modal/message":"Olen kiinnostunut kohteestanne osoitteessa {{address}}."}},"company":{"companyId":15954357,"parent":{"companyId":15954349,"parent":null}},"hasInsuranceCalculator":false,"bankCalculator":"spankki","showContactForm":true,"sellStatus":3,"isPopular":false,"cardId":"20861778","analytics":{"cardId":20861778,"apartmentType":"Kerrostalo","apartmentTypeId":1,"realtorListingNumber":null,"status":1,"size":71.5,"price":34414.699999999997,"published":"2024-02-02 01:43:17","vertical":"Myytavat","subVertical":"Asunnot","privateListing":0,"brokerName":"Päivi Pajunen","realtorCompany":"TA-Asumisoikeus Oy","realtorCompanyId":15954357,"realtorCompanyPackage":3,"realtorCorporation":"TA-Yhtiöt","realtorCorporationId":15954349,"zipCode":"40270","locationPath":"Jyväskylä/Pappilanvuori, Palokka, Heinämäki/40270","habitationType":2,"apartmentBuildYear":2022,"listingType":1},"tori":{"tags":["Kerrostalo","Jyväskylä","30 000 € - 38 000 €","57 m² - 86 m²"],"url":"/myytavat-asunnot?cardType=100&buildingType%5B0%5D=1&locations%5B0%5D%5B0%5D=104&locations%5B0%5D%5B1%5D=6&locations%5B0%5D%5B2%5D=Jyv%C3%A4skyl%C3%A4&price%5Bmin%5D=30000&price%5Bmax%5D=38000&size%5Bmin%5D=57&size%5Bmax%5D=86"}};window.page='listing';window.IS_BUSINESS=false;window.VC_REVISION='16209';window.SSO_TARGET='ot-apts';window.SSO_API_URL='https://sso.oikotie.fi';window.SSO_OIKOTIE_URL='https://oikotie.fi';window.MAP_URL='https://maps.asunnot.oikotie.fi/v1';window.URL_STATIC_CDN='https://cdn.asunnot.oikotie.fi';window.dataLayer=[];window.features=["recommendations","spankki","danske","product","op","asunnot_recommendations","teliaBroadband","if_kotivakuutuslaskuri","zentuvo_photos","denyApiKeyless","import_aging_cards","cards_to_marketo","vuokraturva","blok","living-area","living-area-links","mobile-map","apple_login","notification_center","customCalculatorReports","send_extravisibility_report","displayAds_AST","oikotie_cmp","OP identification","disable-credit-extra-visibility","popularity_notifications","sell-page-floor-plan-card","funnel-media-floor-plan-card","private-rental-tori-visibility","searchCSAT","asuntoliiga","enable-search-card-v2","contactCSAT","searchMapCSAT","energyPromotion","energyPromotionBusiness"];window.isEmbedded=false;</script>
 	<meta name="ot-cmp-property-id" content="14845">
@@ -1666,7 +1666,7 @@ Tarkista uuden tai nykyisen kotisi kotivakuutuksen hinta ja ehdot</a></li></ul><
 		</call-logger>
 	</div>
 <oikotie-app-popup></oikotie-app-popup>
-	<script src="https://asunnot.oikotie.fi/card/card-visit-count?card_id=20861778&random=2092939369"></script>
+	<script src="https://asunnot.oikotie.fi/card/card-visit-count?card_id=20861778&random=1267266984"></script>
 	<app-root></app-root>
 </main>
 

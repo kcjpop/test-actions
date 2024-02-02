@@ -66,9 +66,9 @@
 <meta name="format-detection" content="telephone=no">
 <meta http-equiv="Accept-CH" content="sec-ch-ua-model,sec-ch-ua-platform-version" />
 <meta http-equiv="Permissions-Policy" content="ch-ua-model=*,ch-ua-platform-version=*" />
-<meta name="api-token" content="58bef4b02a8b1d02175b4c64454d5cc7b4d10e3fc437b3fcd0218f98c9d99a5d">
-<meta name="loaded" content="1706857855">
-<meta name="cuid" content="740c3136df4303b5b1b99c7512f501ece9a8abfa">
+<meta name="api-token" content="4ae9a2749a9fa5ac24a350f66055deb79b6c46d0e6b94e343527e0a2c9c29fa6">
+<meta name="loaded" content="1706858506">
+<meta name="cuid" content="32901ac79b1c37413749bb42400af20764290a3c">
 <script>
 	var otAsunnot={"loginData":{"widgetSrcUrl":"https://static.oikotiecdn.fi/schibsted-account/ot-session-widget.min.js","clientId":"6322eb3b9dddad507226afac","target":"ot-apts","userKey":null,"loginError":null,"deniedUrl":null,"adminLogin":false},"translations":{"fi":{"listing/contact/modal/message":"Olen kiinnostunut kohteestanne osoitteessa {{address}}."}},"company":{"companyId":15954357,"parent":{"companyId":15954349,"parent":null}},"hasInsuranceCalculator":false,"bankCalculator":"spankki","showContactForm":true,"sellStatus":3,"isPopular":false,"cardId":"20861777","analytics":{"cardId":20861777,"apartmentType":"Rivitalo","apartmentTypeId":2,"realtorListingNumber":null,"status":1,"size":98,"price":67308.619999999995,"published":"2024-02-02 01:42:52","vertical":"Myytavat","subVertical":"Asunnot","privateListing":0,"brokerName":"Satu Degerlund","realtorCompany":"TA-Asumisoikeus Oy","realtorCompanyId":15954357,"realtorCompanyPackage":3,"realtorCorporation":"TA-Yhtiöt","realtorCorporationId":15954349,"zipCode":"02780","locationPath":"Espoo/Kauklahti, Lasimäki/02780","habitationType":2,"apartmentBuildYear":2022,"listingType":1},"tori":{"tags":["Rivitalo","Espoo","60 000 € - 75 000 €","78 m² - 118 m²"],"url":"/myytavat-asunnot?cardType=100&buildingType%5B0%5D=2&locations%5B0%5D%5B0%5D=39&locations%5B0%5D%5B1%5D=6&locations%5B0%5D%5B2%5D=Espoo&price%5Bmin%5D=60000&price%5Bmax%5D=75000&size%5Bmin%5D=78&size%5Bmax%5D=118"}};window.page='listing';window.IS_BUSINESS=false;window.VC_REVISION='16209';window.SSO_TARGET='ot-apts';window.SSO_API_URL='https://sso.oikotie.fi';window.SSO_OIKOTIE_URL='https://oikotie.fi';window.MAP_URL='https://maps.asunnot.oikotie.fi/v1';window.URL_STATIC_CDN='https://cdn.asunnot.oikotie.fi';window.dataLayer=[];window.features=["recommendations","spankki","danske","product","op","asunnot_recommendations","teliaBroadband","if_kotivakuutuslaskuri","zentuvo_photos","denyApiKeyless","import_aging_cards","cards_to_marketo","vuokraturva","blok","living-area","living-area-links","mobile-map","apple_login","notification_center","customCalculatorReports","send_extravisibility_report","displayAds_AST","oikotie_cmp","OP identification","disable-credit-extra-visibility","popularity_notifications","sell-page-floor-plan-card","funnel-media-floor-plan-card","private-rental-tori-visibility","searchCSAT","asuntoliiga","enable-search-card-v2","contactCSAT","searchMapCSAT","energyPromotion","energyPromotionBusiness"];window.isEmbedded=false;</script>
 	<meta name="ot-cmp-property-id" content="14845">
@@ -1645,7 +1645,7 @@ Tarkista uuden tai nykyisen kotisi kotivakuutuksen hinta ja ehdot</a></li></ul><
 		</call-logger>
 	</div>
 <oikotie-app-popup></oikotie-app-popup>
-	<script src="https://asunnot.oikotie.fi/card/card-visit-count?card_id=20861777&random=1780889560"></script>
+	<script src="https://asunnot.oikotie.fi/card/card-visit-count?card_id=20861777&random=446754559"></script>
 	<app-root></app-root>
 </main>
 
