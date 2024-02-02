@@ -11,11 +11,11 @@ jobs:
       - name: Fetch content
         run: |
           ./curl.sh < ${{ matrix.foo }}
-
       - name: Commit and push if changed
         run: |
           git config --global user.email "runner@example.com"
           git config --global user.name "runner"
           git add -A
-          git commit -m "Update data" || exit 0
+          git commit -m "Update data ${{ matrix.foo }}" || exit 0
+          git pull --rebase
           git push
