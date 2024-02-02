@@ -33,7 +33,7 @@ jobs:
         run: |
           mkdir -p out-${{ matrix.foo }}
           curl --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.3" \
-            --parallel --remote-name-all --output-dir "out-$FOO" -L $(cat ${{ matrix.foo }})
+            --parallel --remote-name-all --output-dir "out-${{ matrix.foo }}" -L $(cat ${{ matrix.foo }})
           zip -r out-${{ matrix.foo }}.zip out-${{ matrix.foo }}
       - name: Push artifact
         uses: actions/upload-artifact@v4
