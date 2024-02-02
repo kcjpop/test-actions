@@ -4,7 +4,7 @@ jobs:
   fetch:
     strategy:
       matrix:
-        foo: [x00, x01, x02, x03, x04]
+        foo: [x00, x01, x02, x03]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
